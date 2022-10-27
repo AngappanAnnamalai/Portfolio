@@ -19,5 +19,26 @@ body
     outline: none;
 }
 
+.hubButton {
+    background-color: #222;
+    border: none;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 8vh;
+    transform: translate(-50%, -50%);
+    top: calc(100vh - 8vh);
+    left: calc(100vw - 8vh);
+    position: absolute;
+}
+
+.hubButton:hover {
+    cursor: pointer;
+}
+
+.hubIcon {
+    height: 7.5vh;
+    width: 7.5vh;
+    z-index: 10;
+}
 
 /*# sourceMappingURL=main.css.map*/
